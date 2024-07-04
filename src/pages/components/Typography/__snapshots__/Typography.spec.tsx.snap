@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Typography component Shoud render Typography 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "Inter-Bold",
+        "fontSize": 14,
+        "lineHeight": 20,
+      },
+      {
+        "color": "#9AF4C3",
+      },
+      {},
+    ]
+  }
+>
+  Testando Typography
+</Text>
+`;
+
+exports[`Testing Typography component Shoud render with empty values 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "Inter-Regular",
+        "fontSize": 14,
+        "lineHeight": 20,
+      },
+      {
+        "color": "#44403C",
+      },
+      {},
+    ]
+  }
+/>
+`;

@@ -1,0 +1,27 @@
+import {fonts} from '../theme/fonts';
+
+export const returnTypeFont = {
+  h1: fonts.h1,
+  h2: fonts.h2,
+  h3: fonts.h3,
+  h4: fonts.h4,
+  h5: fonts.h5,
+  h6: fonts.h6,
+  '16_bold': fonts['16px'].bold,
+  '16_semi_bold': fonts['16px'].semi_bold,
+  '16_medium': fonts['16px'].medium,
+  '16_regular': fonts['16px'].regular,
+  '14_bold': fonts['14px'].bold,
+  '14_semi_bold': fonts['14px'].semi_bold,
+  '14_medium': fonts['14px'].medium,
+  '14_regular': fonts['14px'].regular,
+  '12_bold': fonts['12px'].bold,
+  '12_semi_bold': fonts['12px'].semi_bold,
+  '12_medium': fonts['12px'].medium,
+  '12_regular': fonts['12px'].regular,
+  button_large: fonts.button.large,
+  button_medium: fonts.button.medium,
+  button_smal: fonts.button.small,
+  links_large: fonts.links.large,
+  links_medium: fonts.links.medium,
+};
